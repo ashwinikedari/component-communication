@@ -1,0 +1,4 @@
+<p>{{title}}</p>
+<!-- <app-child [receivedParentMessage]="messageToSendC"></app-child> -->
+<p>{{receivedChildMessage}}</p>
+<app-child (messageToEmit)="getMessage($event)"></app-child> 
